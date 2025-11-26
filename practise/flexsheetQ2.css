@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.box{
+    background-color: rgb(14, 75, 55);
+    color: azure;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.box1{ background-color: blue;}
+.box2{ background-color: rgb(168, 86, 162);}
+.box3{ background-color: rgb(166, 194, 40);}
+.box4{ background-color: rgb(41, 147, 209);}
+.box5{ background-color: rgb(139, 24, 24);}
