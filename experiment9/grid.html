@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .wrapper{
+            display:grid;
+            grid-template-columns: 200px 200px 200px;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .wrapper {
+            border:2px red;
+            border-radius: 5px;
+            background-color: rgb(181, 53, 145);
+        }
+        .wrapper > div {
+            border: 2px palevioletred;
+            border-radius: 5px;
+            background-color: rgb(159, 87, 134);
+            color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+        <div>Six</div>
+        <div>Seven</div>
+    </div>
+    
+</body>
+</html>
