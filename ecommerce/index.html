@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopsy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ff0000;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #222;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+    }
+    .navbar h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    /* Hero */
+    .hero {
+      background: url('https://i.imgur.com/4M7IWwP.jpeg') center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+    }
+    .hero h2 {
+      font-size: 36px;
+    }
+
+    /* Products */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+    .price {
+      color: #e63946;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .btn {
+      background: #222;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>MyShop</h1>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">Cart 🛒</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <h2>Welcome to MyShop — Best Deals Everyday!</h2>
+  </div>
+
+  <div class="products">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/35235991/pexels-photo-35235991.jpeg" alt="Headphones" />
+      <h3>Wireless Headphones</h3>
+      <div class="price">500,
+
+        <div class="products">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/11209837/pexels-photo-11209837.jpeg" alt="shoes" />
+      <h3>Wireless shoes</h3>
+      <div class="price">1500,
+
+        <div class="products">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/10414755/pexels-photo-10414755.jpeg" alt="watch" />
+      <h3>Wireless watch</h3>
+      <div class="price">5000,
+
+        <div class="products">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/35823233/pexels-photo-35823233.jpeg" alt="Bat" />
+      <h3>Wireless Bat</h3>
+      <div class="price">2000,
+
+        <div class="products">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/29371789/pexels-photo-29371789.jpeg" alt="Pendent" />
+      <h3>Wireless pendent</h3>
+      <div class="price">800,
+
+        <div class="products">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg" alt="makeup kit" />
+      <h3>Wireless makeup kit</h3>
+      <div class="price">500,
+        <div>
+          <h1 >THANK YOU FOR SHOPPING ,HAVE A GREAT DAY!</h1>
+        </div>
